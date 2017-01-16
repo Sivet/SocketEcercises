@@ -11,7 +11,6 @@ namespace SocketExercise1_Server
 {
     class ClientHandlerEx1
     {
-        TcpListener listener;
         NetworkStream stream;
         StreamReader reader;
         StreamWriter writer;
